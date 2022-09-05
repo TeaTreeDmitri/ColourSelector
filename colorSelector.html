@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <label for="color" id="color">Colour input here:</label>
+        <input type="color" name="color" id="colorPick">
+
+        <div class="container">
+            <div id="colorDisplay"></div>
+            <ul>
+                <li class="hex"><label for="hexCode" >HEX: </label><input name="hexCode" id="hexCode" readonly></li>
+                <li class="rgb"><label for="rgbCode" >RGB: </label><input name="rgbCode" id="rgbCode" readonly></li>
+                <li class="hsl"><label for="hexCode" >HSL: </label><input name="hslCode" id="hslCode" readonly></li>
+            </ul>
+        </div>
+    </main>
+    <script src="colorSelector.js"></script>
+</body>
+</html>
