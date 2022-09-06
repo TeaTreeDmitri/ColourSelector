@@ -77,7 +77,7 @@ function loadColor() {
         s *= 100;
         l *= 100;      
 
-        hslCode.value = `H:${h.toFixed(1)}, S:${s.toFixed(1)}, L:${l.toFixed(1)}`
+        hslCode.value = `H:${h.toFixed(1)}, S:${s.toFixed(1)}%, L:${l.toFixed(1)}%`
 
     }
 
