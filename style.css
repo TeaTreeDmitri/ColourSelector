@@ -14,6 +14,7 @@ main {
 
 input#colorPick {
     margin-left: 320px;
+    width: 50px;
 }
 
 #colorDisplay {
@@ -25,4 +26,9 @@ input#colorPick {
 
 li {
     padding: 1%;
+    width: 300px;
+}
+
+input {
+    width: 250px;
 }
